@@ -6,16 +6,16 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>动态网站简易介绍 | Hexo</title>
+  <title>jsp动态网站第四章内容 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="#这是的动态网站简易介绍的内容动态网站并不是指具有动画功能的网站，而是指网站内容可根据不同情况动态变更的网站，一般情况下动态网站通过数据库进行架构。动态网站除了要设计网页外，还要通过数据库和编程序来使网站具有更多自动的和高级的功能。动态网站体现在网页一般是以asp，jsp，php，aspx等技术，而静态网页一般是HTML（标准通用标记语言的子集）结尾，动态网站服务器空间配置要比静态的网页要求高，费">
+  <meta name="description" content="#这是jsp动态网站第四章的内容动态网站开发第三次课讲义一、学习目标1、掌握http协议之响应部分2、熟练掌握Response的相关 API （重定向，路径，输出流）3、掌握ServletContext的常用API4、完成文件下载案例二、具体讲解 2.1、掌握http协议之响应部分  请求消息：客户端发送给服务器端的数据 数据格式：1. 请求行 2. 请求头 3. 请求空行 4. 请求体 响应消息">
 <meta property="og:type" content="article">
-<meta property="og:title" content="动态网站简易介绍">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;03&#x2F;%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E7%AE%80%E6%98%93%E4%BB%8B%E7%BB%8D&#x2F;index.html">
+<meta property="og:title" content="jsp动态网站第四章内容">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;03&#x2F;jsp%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E7%AC%AC%E5%9B%9B%E7%AB%A0%E5%86%85%E5%AE%B9&#x2F;index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="#这是的动态网站简易介绍的内容动态网站并不是指具有动画功能的网站，而是指网站内容可根据不同情况动态变更的网站，一般情况下动态网站通过数据库进行架构。动态网站除了要设计网页外，还要通过数据库和编程序来使网站具有更多自动的和高级的功能。动态网站体现在网页一般是以asp，jsp，php，aspx等技术，而静态网页一般是HTML（标准通用标记语言的子集）结尾，动态网站服务器空间配置要比静态的网页要求高，费">
+<meta property="og:description" content="#这是jsp动态网站第四章的内容动态网站开发第三次课讲义一、学习目标1、掌握http协议之响应部分2、熟练掌握Response的相关 API （重定向，路径，输出流）3、掌握ServletContext的常用API4、完成文件下载案例二、具体讲解 2.1、掌握http协议之响应部分  请求消息：客户端发送给服务器端的数据 数据格式：1. 请求行 2. 请求头 3. 请求空行 4. 请求体 响应消息">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-12-03T02:28:22.975Z">
+<meta property="og:updated_time" content="2019-12-03T10:00:23.615Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -152,27 +152,126 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-动态网站简易介绍" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-jsp动态网站第四章内容" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      动态网站简易介绍
+      jsp动态网站第四章内容
     </h1>
   
 
         
-        <a href="/2019/12/03/%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E7%AE%80%E6%98%93%E4%BB%8B%E7%BB%8D/" class="archive-article-date">
-  	<time datetime="2019-12-03T02:27:10.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-12-03</time>
+        <a href="/2019/12/03/jsp%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E7%AC%AC%E5%9B%9B%E7%AB%A0%E5%86%85%E5%AE%B9/" class="archive-article-date">
+  	<time datetime="2019-12-03T09:59:20.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-12-03</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>#这是的动态网站简易介绍的内容<br>动态网站并不是指具有动画功能的网站，<br>而是指网站内容可根据不同情况动态变更的网站，<br>一般情况下动态网站通过数据库进行架构。<br>动态网站除了要设计网页外，还要通过数据库和编程序来使网站具有更多自动的和高级的功能。<br>动态网站体现在网页一般是以asp，jsp，php，aspx等技术，而静态网页一般是HTML（标准通用标记语言的子集）结尾，<br>动态网站服务器空间配置要比静态的网页要求高，费用也相应的高，不过动态网页利于网站内容的更新，适合企业建站。动态是相对于静态网站而言。</p>
+        <p>#这是jsp动态网站第四章的内容<br>动态网站开发第三次课讲义<br>一、学习目标<br>1、掌握http协议之响应部分<br>2、熟练掌握Response的相关 API （重定向，路径，输出流）<br>3、掌握ServletContext的常用API<br>4、完成文件下载案例<br>二、具体讲解<br> 2.1、掌握http协议之响应部分</p>
+<ol>
+<li>请求消息：客户端发送给服务器端的数据<br> 数据格式：<pre><code>1. 请求行
+2. 请求头
+3. 请求空行
+4. 请求体</code></pre><ol start="2">
+<li>响应消息：服务器端发送给客户端的数据<br>数据格式：<ol>
+<li>响应行<ol>
+<li>组成：协议/版本 响应状态码 状态码描述</li>
+<li>响应状态码：服务器告诉客户端浏览器本次请求和响应的一个状态。<ol>
+<li>状态码都是3位数字 </li>
+<li>分类：</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>1xx：服务器就收客户端消息，但没有接受完成，等待一段时       间后，发送1xx多状态码<pre><code>2. 2xx：成功。代表：200
+3. 3xx：重定向。代表：302(重定向)，304(访问缓存)
+4. 4xx：客户端错误。
+    代表：
+        404（请求路径没有对应的资源） 
+        405：请求方式没有对应的doXxx方法
+5. 5xx：服务器端错误。代表：500(服务器内部出现异常)        </code></pre><ol start="2">
+<li>响应头：<ol>
+<li>格式：头名称： 值</li>
+<li>常见的响应头：<ol>
+<li>Content-Type：服务器告诉客户端本次响应体数据格式以及编码格式</li>
+<li>Content-disposition：服务器告诉客户端以什么格式打开响应体数据<br>值：<br>  in-line:默认值,在当前页面内打开<br>  attachment;filename=xxx：以附件形式打开响应体。文件下载</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>响应空行</li>
+<li>响应体:传输的数据<br>响应字符串格式<br>HTTP/1.1 200 OK<br>Content-Type: text/html;charset=UTF-8<br>Content-Length: 101<br>Date: Wed, 06 Jun 2018 07:08:42 GMT<html>
+<head>
+<title>$Title$</title>
+</head>
+<body>
+hello , response
+</body>
+</html>
+
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<p>2.2、熟练掌握Response的相关 API （重定向，路径，输出流）<br>Response对象<br>       功能：设置响应消息<br>        1. 设置响应行<br>            1. 格式：HTTP/1.1 200 ok<br>            2. 设置状态码：setStatus(int sc)<br>        2. 设置响应头：setHeader(String name, String value)<br>        3. 设置响应体：<br>            使用步骤：<br>                1. 获取输出流<br>                    字符输出流：PrintWriter getWriter()<br>                    字节输出流：ServletOutputStream getOutputStream()<br>                2. 使用输出流，将数据输出到客户端浏览器<br>    案例：<br>        1. 完成重定向<br>            重定向：资源跳转的方式，重定向为向另外一个servlet<br>                    或另外一个jsp发送一个新的请求<br>            代码实现：<br>              1. 设置状态码为302<br>                response.setStatus(302);<br>              2.设置响应头location<br>                response.setHeader(“location”,”/day15/responseDemo2”);<br>                //简单的重定向方法<br>                response.sendRedirect(“/day15/responseDemo2”);<br>             重定向的特点:redirect<br>                1. 地址栏发生变化<br>                2. 重定向可以访问其他站点(服务器)的资源<br>                3. 重定向是两次请求。不能使用request对象来共享数据<br>             转发的特点：forward<br>                1. 转发地址栏路径不变<br>                2. 转发只能访问当前服务器下的资源<br>                3. 转发是一次请求，可以使用request对象来共享数据<br>             forward 和  redirect 区别<br>              路径写法：<br>                1. 路径分类<br>                    1. 相对路径：通过相对路径不可以确定唯一资源<br>                        如：./index.html<br>                          不以/开头，以.开头路径<br>                          规则：找到当前资源和目标资源之间的相对位置关系<br>                            ./：当前目录<br>                            ../:后退一级目录<br>                    2. 绝对路径：通过绝对路径可以确定唯一资源<br>    如：<a href="http://localhost/day15/responseDemo2" target="_blank" rel="noopener">http://localhost/day15/responseDemo2</a>             /day15/responseDemo2     以/开头的路径<br>规则：判断定义的路径是给谁用的？判断请求将来从哪儿发出<br>                         给客户端浏览器使用：需要加虚拟目录(项目的访问路径)<br>                                建议虚拟目录动态获取：request.getContextPath()<br>                                <a> , <form> 重定向…<br>                         给服务器使用：不需要加虚拟目录<br>                                转发路径<br>        2. 服务器输出字符数据到浏览器<br>             步骤：<br>                1. 获取字符输出流<br>                2. 输出数据<br>             注意：<br>                乱码问题：<br>                  1. PrintWriter pw = response.getWriter();获取的流的默认编码是ISO-8859-1<br>              2. 设置该流的默认编码<br>               //简单的形式，设置编码，是在获取流之前设置<br>         response.setContentType(“text/html;charset=utf-8”);<br>        3. 服务器输出字节数据到浏览器<br>            步骤：<br>                1. 获取字节输出流<br>                2. 输出数据<br>        4. 验证码<br>            1. 本质：图片<br>            2. 目的：防止恶意表单注册</p>
+<p>2.3、掌握ServletContext的常用API</p>
+<ol>
+<li>概念：代表整个web应用，可以和程序的容器(服务器)来通信<ol start="2">
+<li>获取：<ol>
+<li>通过request对象获取<br> request.getServletContext();</li>
+<li>通过HttpServlet获取<br> this.getServletContext();</li>
+</ol>
+</li>
+<li>功能：<ol>
+<li>获取MIME类型：<ul>
+<li>MIME类型:在互联网通信过程中定义的一种文件数据类型<ul>
+<li>格式： 大类型/小类型   text/html        image/jpeg</li>
+</ul>
+</li>
+<li>获取：String getMimeType(String file)  </li>
+</ul>
+</li>
+<li>域对象：共享数据<ol>
+<li>setAttribute(String name,Object value)</li>
+<li>getAttribute(String name)</li>
+<li>removeAttribute(String name)</li>
+</ol>
+<ul>
+<li>ServletContext对象范围：所有用户所有请求的数据</li>
+</ul>
+</li>
+<li>获取文件的真实(服务器)路径<ol>
+<li>方法：String getRealPath(String path)<br>String b = context.getRealPath(“/b.txt”);//web目录下资源访问<br>System.out.println(b);<br>String c = context.getRealPath(“/WEB-INF/c.txt”);//WEB-INF目录下的资源访问<br>System.out.println(c);<br>String a = context.getRealPath(“/WEB-INF/classes/a.txt”);//src目录下的资源访问<br>System.out.println(a);</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>4、完成文件下载案例<br>  文件下载需求：<pre><code>1. 页面显示超链接
+2. 点击超链接后弹出下载提示框
+3. 完成图片文件下载</code></pre>  分析：<pre><code>1. 超链接指向的资源如果能够被浏览器解析，则在浏览器中展示，如果不能解析，则弹出下载提示框。不满足需求
+2. 任何资源都必须弹出下载提示框
+3. 使用响应头设置资源的打开方式：
+content-disposition:attachment;filename=xxx</code></pre>  步骤：<pre><code>1. 定义页面，编辑超链接href属性，指向Servlet，传递资源名称filename
+2. 定义Servlet
+    1. 获取文件名称
+    2. 使用字节输入流加载文件进内存
+    3. 指定response的响应头： content-disposition:attachment;filename=xxx
+    4. 将数据写出到response输出流</code></pre>  问题：<pre><code>中文文件问题
+    解决思路：
+        1. 获取客户端使用的浏览器版本信息
+        2. 根据不同的版本信息，设置filename的编码方式不同</code></pre></li>
+</ol>
 
       
 
@@ -252,7 +351,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/12/03/%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E7%AE%80%E6%98%93%E4%BB%8B%E7%BB%8D/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/12/03/jsp%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E7%AC%AC%E5%9B%9B%E7%AB%A0%E5%86%85%E5%AE%B9/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -266,18 +365,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2019/12/03/jsp%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E7%AC%AC%E5%9B%9B%E7%AB%A0%E5%86%85%E5%AE%B9/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          jsp动态网站第四章内容
-        
-      </div>
-    </a>
   
-  
-    <a href="/2019/12/02/%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E7%AC%AC%E4%BA%8C%E7%AB%A0/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">动态网站第二章</div>
+    <a href="/2019/12/03/%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E7%AE%80%E6%98%93%E4%BB%8B%E7%BB%8D/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">动态网站简易介绍</div>
       <i class="icon-circle-right"></i>
     </a>
   
